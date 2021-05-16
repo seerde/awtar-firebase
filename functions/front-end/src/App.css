@@ -1,0 +1,1425 @@
+@font-face {
+  font-family: "awtar-font";
+  src: local("awtar-font"), url(./component/images/Ara_Hamah_Homs.ttf);
+}
+
+@font-face {
+  font-family: "awtar-font-en";
+  /* src: local("awtar-font-en"),
+    url(./component/images/RobotoSlab-VariableFont_wght.ttf); */
+  src: local("awtar-font"), url(./component/images/Roboto-Regular.ttf);
+}
+
+.App {
+  text-align: center;
+}
+
+#root {
+  height: 100vh;
+  /* background-image: url("https://designmodo.com/wp-content/uploads/2012/05/914.jpg"); */
+  background-size: cover;
+  background-size: 100% 50%;
+  font-size: 150%;
+  background-color: rgb(235, 235, 235);
+}
+
+.ar {
+  font-family: "awtar-font";
+  font-size: 90%;
+}
+
+.en {
+  font-family: "awtar-font-en";
+  font-size: 80%;
+}
+
+body {
+  width: 100%;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  /* background-image: url("https://designmodo.com/wp-content/uploads/2012/05/914.jpg"); */
+  background-size: cover;
+  background-size: 100% 50%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-bar {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  padding-top: 1%;
+  /* border: solid gray 0.1px; */
+  border-radius: 0%;
+  margin: 0% auto;
+  padding-bottom: 1%;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background-size: 400% 400%;
+  /* animation: gradient 15s ease infinite; */
+  font-size: 100%;
+}
+
+.languages-div {
+  display: flex;
+  position: absolute;
+  margin-left: 45%;
+}
+
+#menu {
+  margin: 0;
+  padding: 0px;
+}
+
+.menu-button {
+  border-radius: 5px;
+}
+.menu-button:active {
+  background-color: white;
+}
+
+.collapse {
+  padding-right: 4%;
+}
+.menu-nav {
+  /* width: 35%; */
+  height: 100%;
+  margin: auto;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: rgb(165, 161, 161);
+  color: black;
+}
+
+.bColor {
+  background-color: rgb(51, 57, 73);
+  /* 343a40  */
+  color: white !important;
+}
+
+/* .submit:hover {
+  width: 30%;
+  background-color: white !important;
+} */
+.Home {
+  margin: 0;
+  width: 100%;
+  height: 700px;
+  /* border: solid gray 2px; */
+  /* margin-right: 10%;
+  margin-left: 10%; */
+  /* margin-top: 5px; */
+  margin-top: 57px;
+  position: relative;
+}
+
+.about {
+  /* border: solid black 2px; */
+  margin: 0;
+  height: 60hr;
+  width: 100vr;
+  padding: 5% 5%;
+  /* background-image: url("https://designmodo.com/wp-content/uploads/2012/05/914.jpg"); */
+  background-size: cover;
+  background-size: 100% 50%;
+}
+
+.contact-container {
+  /* border: solid black 2px; */
+  margin: 0;
+  /* margin-top: 10%; */
+  height: 100hr;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  /* margin-bottom: 0%; */
+  padding: 2% 0;
+  /* padding-bottom: 0px; */
+  /* margin-top: 0%; */
+  padding-right: 1px;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background-size: 400% 400%;
+}
+
+/* .contact-container {
+} */
+
+.cotactus {
+  width: 55%;
+  margin: auto;
+  border-radius: 10px;
+  /* background-color: #33415c; */
+}
+
+.inside-contact {
+  width: 100%;
+  padding: 0% 10%;
+}
+
+.contact-footer {
+}
+
+.contact-icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 2em;
+  align-items: center;
+  margin: 5px;
+  flex-basis: 100px;
+}
+
+.icon:hover {
+  fill: wheat;
+}
+
+.icon {
+  fill: black;
+}
+
+/* p {
+  text-align: justify;
+  padding-right: 5px;
+} */
+
+.services {
+  /* margin: auto; */
+  /* margin: 5% 2%; */
+  width: 100vr;
+  height: 100hr;
+  /* margin: 0 30%; */
+  /* margin-top: 10%; */
+  margin: 10% 0%;
+  text-align: left;
+  margin-top: 70px;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.service-header {
+  margin-top: 67px;
+}
+
+.text-area {
+  width: 60%;
+  margin: 2% 0;
+}
+
+.div-image {
+  width: 100%;
+  height: 100%;
+}
+
+.div-image .project-text {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  text-align: justify;
+}
+
+/* img:hover {
+  box-shadow: 10px 10px 5px grey;
+} */
+
+.Projects {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  position: inherit;
+  margin: 0 0;
+  margin: auto;
+  margin-top: 20px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  justify-content: center;
+}
+
+/* .div-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  position: inherit;
+  margin: 2% 2%;
+  padding: 0% 5%;
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  align-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  padding-bottom: 5%;
+} */
+
+.gallery-image {
+  margin: 5px 5px;
+}
+
+.project-main {
+  margin: 0% 5%;
+  padding-top: 10vh;
+}
+
+.project-text-header {
+  width: 90%;
+  padding: 0;
+  margin: auto;
+  margin-top: 2%;
+  text-align: justify;
+  justify-content: center;
+}
+
+.project-text-header p {
+  width: 100%;
+}
+
+.Proj {
+  width: 44vh;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  margin: auto;
+}
+
+.Proj h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.component {
+  /* width: 100%; */
+  height: 100%;
+  padding: 0;
+  /* padding-top: 2%; */
+  /* margin: 0 5%; */
+  background-color: #fffcfc;
+  /* justify-content: center; */
+  margin: auto;
+  /* background-image: url("https://designmodo.com/wp-content/uploads/2012/05/914.jpg"); */
+  background-size: cover;
+  background-size: 100% 50%;
+}
+
+.main-div {
+}
+
+.message-button {
+  position: absolute;
+  right: 20px;
+  border: none;
+  background-color: #d4edda;
+  /* padding-right: 2%; */
+  /* margin-right: 2%; */
+  color: #64976f;
+}
+.message-button:hover {
+  color: black;
+}
+
+.sucess-message {
+  width: 100%;
+  /* padding-top: 41px; */
+
+  text-align: center;
+}
+
+.services-main {
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*
+      FLIP
+*/
+
+.div-image {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.input-name {
+  width: 100%;
+}
+
+.input-field {
+  margin: 2% 0%;
+}
+
+.input {
+  width: 60%;
+}
+
+.option {
+  margin: 3% 0;
+}
+
+.myOption {
+  text-align: right;
+}
+
+.messages-div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.message-main-div {
+}
+
+.messages {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: inherit;
+  margin: 0 5%;
+  margin-top: 20px;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+.message {
+  width: 280px;
+  height: auto;
+  border: solid black 2px;
+  text-align: center;
+  margin: 2% 2%;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: honeydew;
+  /*add this to make a button in bottom od div*/
+  position: relative;
+}
+
+/*add this to make a button in bottom od div*/
+.DeleteButton {
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+  cursor: pointer;
+}
+
+.DeleteButton p {
+  margin: 0;
+}
+
+label {
+  float: left;
+}
+
+.ar input[required] + label::before {
+  content: "*";
+  color: red;
+}
+
+.ar textarea[required] + label::before {
+  content: "*";
+  color: red;
+}
+
+.en input[required] + label::after {
+  content: "*";
+  color: red;
+}
+
+.en textarea[required] + label::after {
+  content: "*";
+  color: red;
+}
+
+.services-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 58px;
+  margin-bottom: 0;
+}
+
+.Form {
+  margin: 2% 5%;
+  margin-top: 15px;
+  margin-bottom: 1%;
+  text-align: center;
+  /* border: 1px solid #a7a9ac; */
+  border-radius: 10px;
+  padding: 1% 2%;
+  background-color: unset;
+}
+
+.get-messages-button {
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1%;
+  background-color: white;
+}
+
+.delAll-messages-button {
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1%;
+  background-color: white;
+}
+
+.get-messages-button:hover {
+  background-color: rgb(212, 212, 212);
+}
+.delAll-messages-button:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.delete-herf:hover {
+  text-decoration: none;
+  color: red;
+}
+
+/*Big image in Home Page*/
+.big-image {
+  background-image: url("./component/newBG.jpg");
+  height: 60%;
+  width: 100%;
+  background-size: 100% 100%;
+  /* background-color: white; */
+  filter: grayscale(100%);
+  /* // Browser Specific */
+  -webkit-filter: grayscale(65%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+.bgImage {
+  background-image: url("./component/websitebackground.jpg");
+  background-size: cover;
+  background-size: 100% 15%;
+}
+
+.left-image {
+  background-image: url(./component/logoinContact.png);
+  background-size: 100% 100%;
+  height: 58%;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 2%;
+  top: 0%;
+}
+
+.right-image {
+  background-image: url(./component/LogoRight.png);
+  background-size: contain;
+  height: 10%;
+  width: 19.2%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0%;
+  top: 354px;
+  border-top-left-radius: 10px;
+  animation: mymove2 0.5s;
+}
+
+/* Login */
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.Login-main {
+  width: 60%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+  top: 50px;
+  border: 1px solid #ced4da;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.send-button {
+  width: 30%;
+}
+
+.logout {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.container {
+  width: 100%;
+  /* direction: ltr; */
+  /* justify-content: left;
+  text-align: justify;
+  text-justify: inter-word; */
+  overflow: hidden !important;
+}
+
+/* .right-to-left img {
+  position: relative;
+  animation: mymove1 3s;
+} */
+
+/* .left-to-right img {
+  position: relative;
+  animation: mymove2 3s;
+} */
+
+@keyframes mymove1 {
+  from {
+    left: -50px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes mymove2 {
+  from {
+    right: -50px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+.right-to-left {
+  direction: rtl;
+  /* justify-content: right;
+  text-align: justify; */
+}
+.left-to-right {
+  direction: rtl;
+  flex-direction: row-reverse;
+  /* text-align: justify; */
+}
+
+.main-div .row:last-child {
+  margin-bottom: 12px;
+}
+
+.container img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.logo {
+  margin-left: 1%;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-bar img:hover {
+  box-shadow: none;
+}
+
+p {
+  text-align: justify;
+}
+
+.copyright {
+  margin: 0;
+}
+.copyright-div {
+  margin-top: 2%;
+}
+
+.section {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.form-control {
+  border-radius: 10px !important;
+}
+
+.section button {
+  padding: 0;
+  width: 100%;
+  background-color: unset;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.carddeck-div {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.card-div img {
+  height: 39vh;
+  border-radius: 2%;
+}
+
+.card-div {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.card-div .project-image {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.card-div .project-image:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1) !important;
+  transform: scale(1) !important;
+}
+
+/*
+.card-div {
+  width: 100%;
+}
+
+.card-deck .card {
+  flex: 30%;
+  width: 100%;
+} */
+
+.card-deck {
+  margin: auto;
+}
+
+.card-deck .card {
+  background-color: initial;
+  border: unset;
+}
+
+div.card-body {
+  padding: 5% 0%;
+  border: solid gray 1px;
+  position: relative;
+  top: -4px;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top: none;
+  background-color: rgb(51, 57, 73);
+  color: white;
+}
+
+.proj-details {
+  background-color: rgb(218, 218, 218);
+  text-align: right;
+  padding: 0% 5%;
+  padding-top: 1%;
+  position: relative;
+  top: -6px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.proj-details p {
+  padding: 0%;
+  margin: 2% 0;
+}
+
+.carddeck-div img {
+  border-radius: 5px;
+}
+
+.carddeck-div img:hover {
+  box-shadow: none;
+}
+
+.container {
+  overflow: auto;
+}
+
+.cardText {
+  text-align: center;
+  padding: 0px;
+  margin: 0 !important;
+}
+
+.cardTitle {
+  font-size: 32px;
+  width: 100%;
+}
+
+.image-gallery-image {
+  height: 565px;
+  width: 90vh;
+}
+
+.image-gallery-image img {
+  width: 100%;
+}
+
+.image-gallery-content {
+  width: 100%;
+}
+.image-gallery {
+}
+@media only screen and (max-width: 500px) {
+  /* .container {
+    overflow: hidden;
+    flex: auto;
+  } */
+
+  .bgImage {
+    background-size: 90% 10%;
+  }
+
+  .cotactus {
+    width: 100%;
+  }
+
+  .Proj {
+    width: 100%;
+    margin: auto;
+  }
+
+  .image-gallery-image {
+    height: auto;
+  }
+
+  .one {
+    order: 1;
+  }
+  .two {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cotactus {
+    width: 100%;
+  }
+
+  .right-image {
+    width: 25%;
+  }
+
+  .left-image {
+    width: 25%;
+    height: 50%;
+    top: 9%;
+  }
+
+  /* .image-gallery-image {
+    height: 600px;
+    width: 90vh;
+  } */
+
+  /* .image-gallery-image img {
+    width: 100%;
+  } */
+
+  /* .image-gallery-slides {
+    height: 600px !important;
+  } */
+
+  /* for image */
+  .image-gallery-image {
+    height: 100% !important;
+  }
+
+  .image-gallery-slides {
+    /* height: 70vh !important; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .right-image {
+    width: 25%;
+  }
+
+  .left-image {
+    width: 25%;
+    height: 45%;
+    top: 13%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .right-image {
+    width: 32%;
+  }
+
+  .left-image {
+    width: 25%;
+    height: 40%;
+    top: 19%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .right-image {
+    width: 35%;
+  }
+
+  .left-image {
+    width: 28%;
+    height: 37%;
+    top: 21%;
+  }
+
+  .div-QRCode {
+    padding-top: 15% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .right-image {
+    width: 40%;
+  }
+
+  .left-image {
+    width: 32%;
+    height: 32%;
+    top: 26%;
+  }
+  .projectTitleButton h2 {
+    margin-top: 12%;
+  }
+
+  .image-gallery-image {
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .right-image {
+    width: 49%;
+    top: 51%;
+  }
+
+  .left-image {
+    width: 27%;
+    height: 27%;
+    top: 31%;
+  }
+
+  .container img {
+    width: 320px;
+    height: 330px;
+    box-shadow: 5px 5px 5px gray;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .cotactus {
+    width: 65%;
+  }
+
+  .contact-footer {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+hr {
+  height: 12px;
+  background: black;
+}
+
+.copyright-div {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .languages-div {
+    display: unset;
+    position: unset;
+    padding-left: 0;
+    margin: auto;
+  }
+  .div-QRCode {
+    padding-top: 12% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .div-QRCode {
+    padding-top: 20% !important;
+  }
+}
+
+.project-state {
+  position: absolute;
+  top: 36.9px;
+  left: -1px;
+  width: 100px;
+  background-color: rgb(51, 57, 73);
+  color: white;
+  padding: 0;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.state-div {
+  position: fixed;
+  width: 42%;
+  height: 6%;
+}
+
+.state-img {
+  width: 35% !important;
+  height: 65px !important;
+  position: fixed;
+  top: -15.4px;
+  left: -12px;
+}
+
+/* .state-text {
+  width: 100px !important;
+  height: 60px !important;
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  color: white;
+} */
+
+.state-div p {
+  width: 27% !important;
+  position: fixed;
+  color: white;
+  text-align: unset !important;
+  padding: 0;
+  margin: auto;
+  top: 1%;
+  font-size: 80%;
+}
+
+/* .map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
+
+.Logout {
+  position: absolute;
+  right: 0px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+  .Logout {
+    position: relative;
+    border-radius: 8px;
+  }
+}
+
+.goToLogin {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgba(129, 168, 129, 0.356);
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+} */
+
+/* .magic-div {
+} */
+
+/* .text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inside-flip-image {
+  font-weight: bold;
+  margin-top: 50%;
+} */
+
+.image-gallery-thumbnails-wrapper button {
+  margin: 0 0%;
+}
+
+.image-gallery-thumbnails-container {
+  height: 65px !important;
+}
+.image-gallery-thumbnails-container img {
+  height: 61px !important;
+}
+
+.projectTitleButton {
+  display: flex;
+}
+
+.projectTitleButton h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  font-size: 130%;
+}
+
+.projectTitleButton button {
+  position: absolute;
+  top: 60px;
+  left: 0%;
+  width: auto;
+  height: 45px;
+  border: none;
+  font-size: 18px;
+  background-color: initial;
+}
+
+.projectTitleButton button:hover {
+  color: rgb(23, 2, 117);
+}
+
+.copyright-div h5 {
+  color: rgb(51, 57, 73);
+  position: fixed;
+}
+
+.div-QRCode {
+  position: relative;
+  padding-top: 7%;
+  width: 100%;
+  margin: auto;
+}
+
+.div-singleQRCode {
+  width: 100%;
+  text-align: center;
+  padding: 0.5%;
+}
+
+.div-singleQRCode p {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.div-singleQRCode img {
+  width: 350px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 1023px) {
+  .project-main {
+    padding-top: 7%;
+  }
+
+  .projectTitleButton button {
+    top: 4.5%;
+  }
+
+  .image-gallery-image {
+    height: 500px !important;
+  }
+
+  .image-gallery-slides {
+    height: 35vh !important;
+  }
+}
+
+.service-en .textLabel {
+  width: 100%;
+  text-align: left;
+}
+
+.service-ar .textLabel {
+  width: 100%;
+  text-align: right;
+}
+
+.service-ar input {
+  width: 100%;
+  text-align: right;
+}
+
+.service-ar .form-control {
+  width: 100%;
+  text-align: right;
+}
+
+@media only screen and (max-width: 368px) {
+  .state-div p {
+    font-size: 64%;
+  }
+}
+
+.proj-details {
+  text-align: center;
+}
+
+.proj-location {
+  width: 30%;
+  margin: auto;
+}
+
+.proj-location:hover {
+  cursor: pointer;
+}
+
+.proj-details p {
+  font-size: 94%;
+}
+
+@media only screen and (max-width: 395px) {
+  .ar .proj-details p {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .ar .proj-details p {
+    font-size: 82%;
+  }
+}
+
+.ar .projectTitleButton h2 {
+  direction: rtl;
+}
+
+.dashboard-Projects {
+  width: 20vh;
+  height: 20vh;
+  text-align: center;
+  margin: 0;
+  margin: auto;
+  margin-top: 5%;
+  border: solid gray 1px;
+  border-radius: 5px;
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: unset;
+}
+
+.dashboardAddProjects {
+  width: 20vh;
+  height: 20vh;
+  margin: 5px;
+}
+
+.dashboardAddProjects p {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.dashboardAddProjects .card {
+  width: 100%;
+  height: 100%;
+  border: unset;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+  border: solid gray 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboardAddProjects .card:hover {
+  color: #64976f;
+}
+
+.dashboard-Projects .card-div {
+  border: unset;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.dashboard-Projects p {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.dashboard-home {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: inherit;
+  margin: 0 0;
+  margin: auto;
+  padding-top: 75px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  justify-content: center;
+}
+
+.dashboard-addProject {
+  margin-top: 5%;
+  border: solid gray 1px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 20vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dashboard-addProject p {
+  margin: 0;
+}
+
+.details {
+  display: flex;
+}
+
+.deleteProject .card {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(218, 218, 218);
+  border: solid gray 1px;
+  border-radius: 5px;
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  cursor: pointer;
+}
+
+.deleteProject .card:hover {
+  color: red;
+}
+
+.deleteProject p {
+  text-align: center;
+  margin: 0;
+}
+
+.project-div {
+  margin: 5px;
+}
+
+.project-div .card-div:hover {
+  color: white;
+  background-color: rgb(51, 57, 73);
+}
+
+.nav-bar a:focus {
+  background-color: white;
+  color: rgb(51, 57, 73) !important;
+}

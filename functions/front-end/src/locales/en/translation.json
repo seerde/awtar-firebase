@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "btn1": "HOME",
+    "btn2": "PROJECTS",
+    "btn3": "CONTACT US",
+    "btn4": "SERVICES"
+  },
+  "home": {
+    "text1": "This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.",
+    "text2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!",
+    "text3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!",
+    "text4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!"
+  },
+  "services": {
+    "input1": "Name",
+    "place1": "Enter your name",
+    "input2": "Mobile Number",
+    "place2": "Enter number",
+    "input3": "Email address",
+    "place3": "Enter your email",
+    "input4": "Location",
+    "place4": "Choose...",
+    "locations": {
+      "1": "Alzhra 1",
+      "2": "Alzhra 2",
+      "3": "Alzhra 3",
+      "4": "Alzhra 4",
+      "5": "Alzhra 5"
+    },
+    "input5": "Message",
+    "btn": "Send"
+  },
+  "services-alert": {
+    "error": "Sorry, There is/are some errors please check the follwoing",
+    "name": "Please Enter Your Name",
+    "number": "Please Enter Your Number",
+    "location": "Please Select a Location",
+    "message": "Please Write your Message"
+  },
+  "contactus": {
+    "header": "Contact Us",
+    "cardHeader": "Let's get in touch",
+    "cardDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!",
+    "cardConnect": "Connect with us",
+    "formHeader": "CONTACT US",
+    "input1": "Name",
+    "input2": "Email",
+    "input3": "Phone",
+    "input4": "Message",
+    "btn": "Send"
+  },
+  "footer": {
+    "footerDescription": ""
+  },
+  "gallery": {
+    "btn": "Other Projects"
+  },
+  "location": "Location"
+}
